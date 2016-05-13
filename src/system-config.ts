@@ -3,10 +3,12 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'primeng': 'vendor/primeng'
 };
 
 /** User packages configuration. */
 const packages: any = {
+   'primeng': { defaultExtension: 'js' }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -22,6 +24,7 @@ const barrels: string[] = [
   '@angular/router',
   '@angular/platform-browser',
   '@angular/platform-browser-dynamic',
+  '@angular/router-deprecated',
 
   // Thirdparty barrels.
   'rxjs',
